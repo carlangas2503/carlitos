@@ -1,0 +1,31 @@
+head: mostrar primeras lineas de una archivo
+pwd:muestra donde estoy ubicado(docuentos)
+date:que día y fecha es
+ls:muestra donde estoy ubicado en los documentos
+ls -la:muestra archivos ocultos y detalles de todos los archivos
+clear:limpia la barra de trabajo de edición 
+cd[nombre carpeta]/:moverse entre carpetas
+cd ..:devolverse una carpeta
+cd ~:volver a la carpeta de inicio
+mkdir"[nombre carpeta nueva]":crear nueva carpeta
+rm:[archivo]:eliminar un archivo
+rm -rf[archivo]:fuerza remover el archivo
+touch: crear archivo
+git init:se utiliza para iniciar nuestro repositorio
+git add[nombre del archivo]:guarda un archivo en el ciclo total
+git commit -m"[recordatorio]":guarda un archivo en la nube con un mensaje que te ayude a recordarlo
+git status: permite ver los archivos que han surgido cambios y no han sido commiteados o guardados
+git log "nombre dle archivo":sirve para el ver el historial de un archivo de git
+git push:sirve para enviar cambios al repositorio remoto
+git pull:sirve para recibir cambios de repositorio al local
+git reset HEAD:ayuda a devolver a un archivo a su estado anterior
+git commit:guardar archivos sin recordatorios
+git rm --cached:mueve los archivos que seleciones a untranked
+git rm --force:elimina los archivos de git y del disco duro
+git show:nos muestra los cambios que han existido en un archivo
+git diff:nos muestra la diferencia entre una version del archivo y otra
+git checkout --[id del commit]:podemos volver a cualquier versión de un archivo en especifico
+git log --stat:commit descriptivo con cantidad de lineas agregadas y removidas por archivo
+git reset --soft"commit":borra toda la información que tenemos en stage, perdiendo todo para siempre
+git checkout master "archivo.txt":volver a la versión madre
+

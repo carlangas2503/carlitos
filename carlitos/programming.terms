@@ -1,0 +1,6 @@
+ estados de archivos de git:
+ archivos tracked:son los archivos que viven dentro de git, no tienen cambios pendientes y sus ultimas actualizaciones han sido gardadas en el repositorip
+ archivos stage:viven dentro de git y hay registro de ellos porque han sido afectados por el comando git add, aunque no sus ultimos cambios
+ archivos unstage:son archivos que viven dentro de git pero no han sido afectados por el comando git add ni mucho menos por git commit
+ archivos untrancked:son archivos que no viven dentro de git, nunca han sido afectados por git add entonces git no tiene conocimientos de ellos
+ 
